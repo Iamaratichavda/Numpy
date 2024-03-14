@@ -1,0 +1,93 @@
+print("Hello World")
+
+print("Hello")
+
+print("Welcome to machine learning python") 
+
+import numpy as np
+
+[1,2,3,4]
+
+a=np.array([1,2,3,4])    #print array with library numpy
+print(a)
+
+print("array a:",a)
+print(f"array:{a}")
+print("array a:{}".format(a))
+
+print(f"ndin:{a.ndim}")
+print(f"size:{a.size}") # show size
+print(f"shape:{a.shape}") # shape
+print(f"dtype:{a.dtype}") #datatypes
+print(f"itemsize:{a.itemsize}")#how many items in array
+
+b=np.array([[1,2,3],[4,5,6]]) 
+print(b)
+
+b=np.array([4,5,6,7])
+c=np.add(a,b) #addition of array
+print(c)
+
+b=np.array([4,5,6,7])
+d=np.subtract(a,b) #substract
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.add(a,b) 
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.subtract(a,b)
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.divide(a,b) #division
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.multiply(a,b) #multiplication
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.mod(a,b) #module or reminder
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.power(a,b) #power 
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.abs(a,b) #absolute value
+print(d)
+
+b=np.array([[1,2,3,4],[4,5,6,7]])
+d=np.remainder(a,b)
+print(d)
+
+s=np.array(["utsav","vishv","digu","bhavdip"])
+print(s)
+print(f"size:{a.size}")
+print(f"shape:{a.shape}")
+print(f"dtype:{a.dtype}")
+print(f"itemsize:{a.itemsize}")
+
+z=np.zeros((2,3)) #used to create an array with zeros
+print(z)
+
+one=np.ones((3,3))  #used to create a new array of given shape and type filled with ones
+print(one)
+
+empty=np.empty((2,2)) #used to return new array of given shape and type
+print(empty)
+
+ar=np.arange(1,5,0.5) #return an array with evenly spaced elements as per the interval                   
+print(ar)
+
+l=np.linspace(1,5,8) #space between the specified interval
+print(l)
+
+r=np.random.random((2,3)) #returns a random float number between 0 and 1
+print(r)
+
+
+
